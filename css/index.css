@@ -4,3 +4,30 @@ html {
 	background-size:100%;
 	cursor: pointer;
 }
+.menu{
+		background: rgba(255, 255, 255, 0.35);
+}
+.menu ul li{
+	list-style-type: none;
+	display: inline-block;
+	background: black;
+	color: white;
+	padding: 10px;
+	position: relative;
+	bottom: 10px;
+}
+.menu ul li a{
+	color: white;
+}
+.menu img{
+	margin: 5px 10px 5px 20px;
+	display: inline-block;
+	position: relative;
+	top: 5.5px;
+}
+.menu ul{
+	display: inline;
+	margin: 5px;
+	position: relative;
+	bottom: 11px;
+}
