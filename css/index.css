@@ -40,6 +40,13 @@ html {
 #gal10 {
 	width:35%;
 }
+.logo {
+	width:600px;
+	height:600px;
+}
+.audio {
+	width:600px;
+}
 .menu ul li{
 	list-style-type: none;
 	display: inline-block;
