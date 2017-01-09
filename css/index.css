@@ -41,11 +41,10 @@ html {
 	width:35%;
 }
 .logo {
-	width:600px;
-	height:600px;
+	width:50%;
 }
 .audio {
-	width:600px;
+	width:50%;
 }
 .menu ul li{
 	list-style-type: none;
@@ -73,7 +72,11 @@ html {
 	clear: left;
 }
 .hometext{
-	width: 20%;
+	float:right;
+	margin:5%;
+	background-color:lightblue;
+	width: 25%;
+	font-size:135%;
 }
 .descriptionh1 {
 	background-color:black;
@@ -137,6 +140,13 @@ html {
 		position:none;
 		float:right;
 	}
+	.hometext{
+	float:right;
+	margin:5%;
+	background-color:lightblue;
+	width: 25%;
+	font-size:95%;
+}
 	html {
 		background-size:1024px 1400px;
 	}
@@ -157,14 +167,24 @@ html {
 		position:none;
 		float:right;
 	}
+	.hometext{
+	float:right;
+	margin:2%;
+	background-color:lightblue;
+	width: 35%;
+	font-size:75%;
+}
 	html {
 		background-size:320px 1000px;
 	}
 	.menu {
 		margin:2px 0px 2px;
-		height:130px;
+		height:195px;
 	}
 	ul li {
+		position:absolute;
+		top:30px;
+		right:3%;
 		margin:5px;
 		font-size:8px;
 	}
