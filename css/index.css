@@ -48,6 +48,10 @@ html {
 	height:350px;
 	float:right;
 }
+.donate{
+	font-family: Impact, Charcoal, sans-serif;
+	color: white;}
+
 @media (min-width:769px) and (max-width:1025px){
 	.descriptionimg {
 		width:250px;
@@ -59,11 +63,6 @@ html {
 		position:none;
 		float:right;
 	}
-}
-.donate{
-	font-family: Impact, Charcoal, sans-serif;
-	color: white;
-}
 
 	html {
 		background-size:1024px 1400px;
