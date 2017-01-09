@@ -26,10 +26,11 @@ html {
 	top: 5.5px;
 }
 .menu ul{
-	display: inline;
+	display: inline-block;
 	margin: 5px;
 	position: relative;
 	bottom: 11px;
+	clear: left;
 }
 .descriptionh1 {
 	background-color:black;
@@ -47,6 +48,10 @@ html {
 	height:350px;
 	float:right;
 }
+.donate{
+	font-family: Impact, Charcoal, sans-serif;
+	color: white;}
+
 @media (min-width:769px) and (max-width:1025px){
 	.descriptionimg {
 		width:250px;
@@ -58,6 +63,7 @@ html {
 		position:none;
 		float:right;
 	}
+
 	html {
 		background-size:1024px 1400px;
 	}
