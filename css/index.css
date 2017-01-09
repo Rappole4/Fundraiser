@@ -65,6 +65,9 @@ html {
 	bottom: 11px;
 	clear: left;
 }
+.hometext{
+	width: 20%;
+}
 .descriptionh1 {
 	background-color:black;
 	color:red;
