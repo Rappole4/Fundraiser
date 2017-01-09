@@ -1,9 +1,10 @@
 html {
 	background-image: url(http://media.click2houston.com/photo/2015/11/22/KPRC-Anchor-BAS-Super-Bowl-51-jpg_498001_ver1.0_1280_720.jpg);
 	background-repeat:no-repeat;
-	background-size:100%;
-	cursor: pointer;
+	background-size:cover;
+	cursor:url(http://www.raginpagin.com/louisiana/images/icons/icon02.gif), auto;
 }
+
 .menu{
 		background: rgba(255, 255, 255, 0.35);
 }
