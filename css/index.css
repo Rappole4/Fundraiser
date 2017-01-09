@@ -1,7 +1,7 @@
 html {
 	background-image: url(http://media.click2houston.com/photo/2015/11/22/KPRC-Anchor-BAS-Super-Bowl-51-jpg_498001_ver1.0_1280_720.jpg);
 	background-repeat:repeat;
-	background-size:cover;
+	background-size:100% 1200px;
 	cursor:url(http://www.raginpagin.com/louisiana/images/icons/icon02.gif), auto;
 }
 .menu{
@@ -47,15 +47,76 @@ html {
 	height:350px;
 	float:right;
 }
-@media (max-width:1025px){
+@media (min-width:769px) and (max-width:1025px){
 	.descriptionimg {
-		width:300px;
-		height: 300px;
+		width:250px;
+		height: 250px;
 	}
 	.descriptionimg2 {
-		width:300px;
-		height:300px;
+		width:250px;
+		height:250px;
 		position:none;
 		float:right;
+	}
+	html {
+		background-size:1024px 1400px;
+	}
+}
+@media (min-width:569px) and (max-width:768px){
+	.descriptionimg {
+		width:250px;
+		height: 250px;
+	}
+	.descriptionimg2 {
+		width:250px;
+		height:250px;
+		position:none;
+		float:right;
+	}
+	html {
+		background-size:768px 1200px;
+	}
+}
+@media (min-width:321px) and (max-width:568px){
+	.descriptionimg {
+		width:250px;
+		height: 250px;
+	}
+	.descriptionimg2 {
+		width:250px;
+		height:250px;
+		position:none;
+		float:right;
+	}
+	html {
+		background-size:1024px 1400px;
+	}
+	.menu ul li {
+		font-size:14px;
+		margin:1px;
+	}
+}
+@media (max-width:320px){
+
+	.descriptionimg {
+		width:150px;
+		height: 150px;
+	}
+	.descriptionimg2 {
+		width:150px;
+		height:150px;
+		position:none;
+		float:right;
+	}
+	html {
+		background-size:320px 1000px;
+	}
+	.menu {
+		margin:2px 0px 2px;
+		height:120px;
+	}
+	ul li {
+		margin:5px;
+		font-size:10px;
 	}
 }
