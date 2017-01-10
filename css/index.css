@@ -94,10 +94,12 @@ html {
 	height:350px;
 	float:right;
 }
-.donate{
+.donate {
 	font-family: Impact, Charcoal, sans-serif;
 	color: white;}
-
+#iframe {
+	width:98%;
+}
 @media (min-width:769px) and (max-width:1025px){
 	.descriptionimg {
 		width:250px;
