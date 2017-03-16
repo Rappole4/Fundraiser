@@ -1,3 +1,5 @@
+# Fundraiser
+
 3 pages + css
 working on css together	-	index.css
 cause layout page	-	index.html/description.html
